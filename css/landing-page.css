@@ -15,6 +15,10 @@ h6 {
     background-color: #257e8e !important;
 }
 
+.btn-icon, .btn-icon:hover, .btn-icon:active, .btn-icon:visited {
+    background-color: #f8f9fa; !important;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
