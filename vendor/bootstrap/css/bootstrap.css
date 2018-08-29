@@ -6099,6 +6099,10 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 
+.bg-ligther {
+	background-color: #e3e5e8 !important;
+}
+
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -8980,4 +8984,70 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+/* Changes and addtions by Adrian Rivera Balasquide */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #257e8e !important;
+}
+
+.btn-icon, .btn-icon:hover, .btn-icon:active, .btn-icon:visited {
+    background-color: #f8f9fa; !important;
+}
+
+a.dark-brand{
+
+	color: inherit;
+
+}
+
+.navbar-brand-sm , .navbar-brand-sm:hover{
+
+	color: #257e8e;
+
+}
+.navbar-brand-sm {
+	
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.05em;
+  line-height: inherit;
+  white-space: nowrap;
+
+}
+.container-opaque {
+
+	
+	color: #fff;
+
+}
+
+.main-scheme {
+
+	color: #257e8e;
+
+}
+
+.head-master-icons {
+
+	color: #fff;
+	opacity: 0.65;
+	
+
+}
+
+.icon-text-space {
+
+	padding-right: 5px;
+
+}
+
+.container-left-text {
+
+	text-align: left;
+	padding-right: 5px;
+
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */

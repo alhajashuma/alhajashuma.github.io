@@ -36,59 +36,71 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light fixed-top">
-		<div class="container-responsive" >
-			<li class="list-inline-item">
-				<a href="#">
-					<i class="fa fa-instagram fa-2x" style="color: #257e8e"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a href="#">
-					<i class="fa fa-facebook fa-2x " style="color: #257e8e"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a href="#">
-					<i class="fa fa-twitter fa-2x" style="color: #257e8e"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a href="#">
-					<i class="fa fa-pinterest-p fa-2x" style="color: #257e8e"></i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a href="#">
-					<i class="fa fa-tumblr fa-2x" style="color: #257e8e"></i>
-				</a>
-			</li>
-		</div>
-      <div class="container">
-        <span class="navbar-brand" style="font-style: italic; text-align: center; vertical-align: middle;">Alhajas Huma</span>
-        <div class="dropdown dropdownleft" >
-			<button class="btn btn-icon " style="color: white"type="button" id="dropdownMenuButton" data-toggle="dropdown">
-			   <i class="fa fa-bars fa-2x" style="color: #257e8e"></i>
+	<div class="fixed-top">
+		<nav class="navbar navbar-light bg-light">
+		  <div class="container">
+			<button class="btn btn-icon " style="color: white" type="button" id="searchButton">
+				<i class="fa fa-search fa-2x main-scheme"></i>
 			</button>
-			  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-				<a class="dropdown-item" href="#">Dresses</a>
-				<a class="dropdown-item" href="#">Shirts</a>
-				<a class="dropdown-item" href="#">Pants</a>
+			<span class="navbar-brand" style="font-style: italic">Alhajas Huma</span>
+			<div class="TESTdropdown TESTdropdownleft" >
+				<button class="btn btn-icon " style="color: white"type="button" id="TESTdropdownMenuButton" data-toggle="TESTdropdown">
+				   <i class="fa fa-sign-in fa-2x main-scheme"></i>
+				</button>
+				  <!-->
+				  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="#">Dresses</a>
+					<a class="dropdown-item" href="#">Shirts</a>
+					<a class="dropdown-item" href="#">Pants</a>
+				  </div>
+				<!-- Experimental -->
 			</div>
-		</div>
-      </div>
-    </nav>
+		  </div>
+		</nav>
+		<nav class="navbar navbar-light bg-ligther">
+			<div class="container">
+				<h6 style="color: white"><a class="navbar-brand-sm" href="#">New</a></h6>
+				<h6 style="color: white"><a class="navbar-brand-sm" href="#">Clothes</a></h6>
+				<h6 style="color: white"><a class="navbar-brand-sm" href="#">Silver Collection</a></h6>
+				<h6 style="color: white"><a class="navbar-brand-sm" href="#">Accesories</a></h6>
+				<h6 style="color: white"><a class="navbar-brand-sm" href="#">Handcraft</a></h6>
+			</div>
+		</nav>
+	</div>
+	
 
     <!-- Masthead -->
     <header class="masthead text-white text-center">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Alhajas Huma</h1>
+          <div class="container-left-text col-sm-2 mx-auto">
+			<h5>New Clothing!</h5>
+            <div class="container-left-text container-opaque">
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Tops</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Dresses</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Jumpsuits</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Bottoms</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Tops</p>
+			</div>
           </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-			<h5>Description of the Store </h3>
+          <div class="container-left-text col-sm-3 mx-auto">
+			<h5>Just Arrived Silver Collection</h5>
+			<div class="container-left-text container-opaque">
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Bracelets</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Rings</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Necklaces</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Earrings</p>
+			</div>
+          </div>
+		  <div class="container-left-text col-sm-2 mx-auto">
+			<h5>Accesories</h5>
+			<div class="container-left-text container-opaque">
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Bracelets</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Ring</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Necklaces</p>
+				<p class="font-weight-light"><i class="fa fa-star icon-text-space head-master-icons"></i>Earing</p>
+			</div>
           </div>
         </div>
       </div>
@@ -231,25 +243,58 @@
     <footer class="footer bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+		<div class="col-lg-6 h-100" style="padding-bottom: 25px;">
+				<p class="font-weight-light mb-0" style="font-size: 1.25em">Follow us!	</p>
+				<li class="list-inline-item">
+					<a href="#">
+						<i class="fa fa-instagram fa-2x main-scheme"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#">
+						<i class="fa fa-facebook fa-2x main-scheme"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#">
+						<i class="fa fa-twitter fa-2x main-scheme"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#">
+						<i class="fa fa-pinterest-p fa-2x main-scheme"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#">
+						<i class="fa fa-tumblr fa-2x main-scheme"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#">
+						<i class="fa fa-snapchat fa-2x main-scheme"></i>
+					</a>
+				</li>
+			</div>
+          <div class="col-lg-6 h-100">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="#">About Us</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="#">Work With Us</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <a href="#">Return and Exchanges</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <a href="#">Shipping Policy</a>
               </li>
             </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Alhajas Humas 2018. All Rights Reserved.</p>
           </div>
       </div>
     </footer>

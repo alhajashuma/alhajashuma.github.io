@@ -11,13 +11,7 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #257e8e !important;
-}
 
-.btn-icon, .btn-icon:hover, .btn-icon:active, .btn-icon:visited {
-    background-color: #f8f9fa; !important;
-}
 
 header.masthead {
   position: relative;
